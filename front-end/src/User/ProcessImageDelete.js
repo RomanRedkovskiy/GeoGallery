@@ -6,10 +6,12 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const ProcessImageDelete = () => {
   const history = useHistory();
   const [errorMessage, setErrorMessage] = useState(null);
+  const userId = localStorage.getItem('isAdmin') === 'true' ?
+		localStorage.getItem('auxiliaryId') : localStorage.getItem('userId');
 
   useEffect(() => {
 
-    fetch(config.apiUrl + "/users/" + localStorage.getItem('userId') + "/image", {
+    fetch(config.apiUrl + "/users/" + userId + "/image", {
       method: 'DELETE',
       headers: {
 		"Authorization": localStorage.getItem('Token'),

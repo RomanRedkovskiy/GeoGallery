@@ -84,6 +84,9 @@ public class UserServiceImpl implements UserService {
     //process image delete
     @Override
     public void processImageDelete(String id, String filePath) {
+        if(retrieveIsAdminFromDatabase(id)){
+            throw new UnsupportedOperationException("Cannot edit admin data");
+        }
         deleteFileFromStorage(filePath); //delete image from Firebase Storage
         deleteImageComments(filePath); //delete image comments from Firebase Database
         deleteUserFileFromDatabase(id, filePath); //delete image bind from Firebase Database
