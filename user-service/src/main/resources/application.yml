@@ -3,3 +3,11 @@ server:
   error:
     include-message: always
     include-stacktrace: never
+secret:
+  key: ${AES_SECRET_KEY}
+  claim: pass
+project:
+  id: geogallery-ab822
+firebase:
+  config: user-service/src/main/resources/static/geogallery-ab822-firebase-adminsdk-s61m4-db46850697.json
+  storage: geogallery-ab822.appspot.com

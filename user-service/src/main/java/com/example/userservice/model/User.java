@@ -2,7 +2,7 @@ package com.example.userservice.model;
 
 import lombok.Data;
 
-import java.util.List;
+import java.util.ArrayList;
 
 @Data
 public class User {
@@ -13,5 +13,5 @@ public class User {
 
     private String name;
 
-    private List<PhotoBind> images;
+    private ArrayList<ImageBind> images;
 }
