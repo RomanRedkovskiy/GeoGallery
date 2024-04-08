@@ -2,17 +2,18 @@ const AboutProject = () => {
 	return ( 
 		<>
 			<div className="about_project">
-				<h2 className='about_project_header'>About project</h2>
-				
-				<div className="about_project_box">
-					<h4 className='about_project_box_header'>RESTful organiser:</h4>
-					<p className="about_project_text">RESTful organizer is a task management system that allows users to: </p>
-						<ul className='about_project_list'> 
-							<li>organize their tasks into compilations,</li> 
-							<li>collaborate with other users by sharing your work progress with them.</li>
-						</ul>  
-					<p className="about_project_text">The program follows a client-server architecture, with the frontend implemented using React and the backend implemented using Java Spring.</p>
-				</div>
+				<h3>Application capabilities:</h3>
+				<h3>For user:</h3>
+				<p>Bind your images on any map position.</p>
+				<p>Manage user images</p>
+				<p>Add comments to every image</p>
+				<h3>For admin:</h3>
+				<p>Manage users and their data</p>
+				<h3>Application features:</h3>
+				<p>Connecting to geographical map using leaflet.</p>
+				<p>Role separation using JWT tokens.</p>
+				<p>Using Firebase Cloud Service for storing data.</p>
+				<h2>.</h2>
 			</div>
 
 			<footer className='footer'>
