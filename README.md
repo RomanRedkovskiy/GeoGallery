@@ -2,9 +2,9 @@
 
 ## To run application:
 ### user-service:
-`mvn clean package` for jwt-utils
-`mvn clean package` for user-service'
-`java -jar user-service-0.0.1-SNAPSHOT.jar`
+`mvn clean package` for jwt-utils.
+`mvn clean package` for user-service'.
+`java -jar user-service-0.0.1-SNAPSHOT.jar`.
 
 #### Environment variables:
 `USER_SERVICE_PORT` -> variable to specify server port for user-service (`8080` by default)
@@ -16,8 +16,8 @@ Put your `json configuration file` in resources/static of user-service module.
 
 ### front-end:
 Install Node.js: Visit the official Node.js [website](https://nodejs.org) and download the appropriate installer for your operating system.
-`npm install`
-`npm start`
+`npm install`.
+`npm start`.
 
 #### Environment variables:
 On the root level of module there's a `config.js` file.
