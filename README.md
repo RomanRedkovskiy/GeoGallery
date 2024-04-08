@@ -35,7 +35,11 @@ Change `apiUrl` value considering user-service's port.
 - Manage user images  
 - Add comments to every image  
 #### For admin:  
-- Manage users and their data  
+- Manage users and their data
+- Admin credentials:
+  - login: "admin@gmail.com",
+  - password: "admin_2024",
+  - name: "Admin"
 
 ### Application features:  
 -Connecting to geographical map using leaflet.  
