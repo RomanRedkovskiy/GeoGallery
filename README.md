@@ -24,10 +24,10 @@ On the root level of module there's a `config.js` file.
 Change `apiUrl` value considering user-service's port.  
 
 ## Application description:  
-### Stack:  
-#### Java for user-service and jwt-utils components.  
-#### React for front-end component.  
-#### Firebase as a cloud service for RealtimeDatabase, Authentication, Storage.  
+### Stack:    
+- #### Java for user-service and jwt-utils components.  
+- #### React for front-end component.  
+- #### Firebase as a cloud service for RealtimeDatabase, Authentication, Storage.  
 
 ### Application capabilities:  
 #### For user:  
