@@ -7,9 +7,9 @@
 `java -jar user-service-0.0.1-SNAPSHOT.jar`  
 
 #### Environment variables:  
-`USER_SERVICE_PORT` -> variable to specify server port for user-service (`8080` by default)  
-`AES_SECRET_KEY` -> secret key for handling password encryption (should contain 16-symbol A-Za-z string, e.g., `JwXdnlcDyzQjiYdy`)  
-`JWT_SECRET_KEY` -> secret key for handling jwt processing (e.g., `93b762915b6a4ae48068e59621c2ef0f`)  
+`USER_SERVICE_PORT` -> server port specification for user-service (`8080` by default)  
+`AES_SECRET_KEY` -> for handling password encryption (should contain 16-symbol A-Za-z string, e.g., `JwXdnlcDyzQjiYdy`)  
+`JWT_SECRET_KEY` -> for handling jwt processing (e.g., `93b762915b6a4ae48068e59621c2ef0f`)  
 
 `application.yml` file also has `firebase.config` value, which is a reference for `json configuration file`  
 Put your `json configuration file` in resources/static of user-service module.  
